@@ -114,7 +114,7 @@ const resume = () => {
             <span className="px-2">|</span>Las Vegas, NV
           </p>
           <p className="py-1 italic">
-            Office Associate / Web Development Consultant and Engineer (2019 -
+            Office Associate / Web Development Consultant & Engineer (2019 -
             Current)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
