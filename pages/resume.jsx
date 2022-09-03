@@ -11,7 +11,7 @@ const resume = () => {
           name="description"
           content="I’m a full-stack web developer specializing in building exceptional digital experiences."
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="assets/navLogo.png" />
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
@@ -200,8 +200,8 @@ const resume = () => {
             {/* <span className="px-2">|</span> */}
           </p>
           <p className="italic text-right">
-            Graduate, 3.8 GPA, Honors Diploma, Medical Magnet
-            Medallion (2015 - 2019)
+            Graduate, 3.8 GPA, Honors Diploma, Medical Magnet Medallion (2015 -
+            2019)
           </p>
         </div>
       </div>

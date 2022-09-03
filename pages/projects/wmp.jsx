@@ -1,11 +1,19 @@
 import Image from "next/image";
 import React from "react";
 import wmpImg from "../../public/assets/projects/wmp.png";
+import navLogo from "../../public/assets/navLogo.png"
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import Head from "next/head";
 
 const wmp = () => {
   return (
+    <div>
+    <Head>
+    <title>Chase | Plants App</title>
+    <meta name="description" content="I’m a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+    <link rel="icon" href={navLogo} />
+    </Head>
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
@@ -82,6 +90,7 @@ const wmp = () => {
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
+    </div>
     </div>
   );
 };
