@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import wmpImg from "../../public/assets/projects/wmp.png";
-import navLogo from "../../public/assets/navLogo.png"
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
@@ -12,7 +11,7 @@ const wmp = () => {
     <Head>
     <title>Chase | Plants App</title>
     <meta name="description" content="I’m a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences." />
-    <link rel="icon" href={navLogo} />
+    <link rel="icon" href="../../public/assets/navLogo.png" />
     </Head>
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
