@@ -63,23 +63,23 @@ const resume = () => {
         {/* Skills */}
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          <div className="py-2">
-            <span className="font-bold">Front End </span>
-            <span className="px-2">|</span>HTML
-            <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>ReactJS
-            <span className="px-2">|</span>NextJS
-            <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span>AntDesign
-            <span className="px-2">|</span>MaterielUI
-            <span className="px-2">|</span>Yup
-            <span className="px-2">|</span>Jest
-            <span className="px-2">|</span>Cypress
-            <span className="px-2">|</span>Figma
+          <div className="py-2 flex flex-row flex-wrap">
+            <div className="font-bold">FrontEnd </div>
+            <div className="px-2">|</div>HTML
+            <div className="px-2">|</div>CSS
+            <div className="px-2">|</div>ReactJS
+            <div className="px-2">|</div>NextJS
+            <div className="px-2">|</div>Tailwind
+            <div className="px-2">|</div>AntDesign
+            <div className="px-2">|</div>MaterielUI
+            <div className="px-2">|</div>Yup
+            <div className="px-2">|</div>Jest
+            <div className="px-2">|</div>Cypress
+            <div className="px-2">|</div>Figma
           </div>
 
-          <div className="py-2">
-            <span className="font-bold">Back End</span>
+          <div className="py-2 flex flex-row flex-wrap">
+            <span className="font-bold">BackEnd</span>
             <span className="px-2">|</span>Node.js
             <span className="px-2">|</span>Express
             <span className="px-2">|</span>PostgreSQL
@@ -89,15 +89,13 @@ const resume = () => {
             <span className="px-2">|</span>Heroku
             <span className="px-2">|</span>Netlify
           </div>
-          <p className="py-2">
+          <p className="py-2 flex flex-row flex-wrap">
             <span className="font-bold">Additional</span>
             <span className="px-2">|</span>GitHub
-            <span className="px-2">|</span>Vercel
-            <span className="px-2">|</span>Heroku
-            <span className="px-2">|</span>Netlify
             <span className="px-2">|</span>Docker
             <span className="px-2">|</span>Jira
             <span className="px-2">|</span>Trello
+            <span className="px-2">|</span>Agile Project Management
             <span className="px-2">|</span>Architecture
             <span className="px-2">|</span>Debugging
             <span className="px-2">|</span>Deployment
