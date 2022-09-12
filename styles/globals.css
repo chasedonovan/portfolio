@@ -11,12 +11,12 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide dark:bg-slate-900 dark:text-white
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold
+  @apply font-bold 
 }
 
 h1 {
@@ -24,13 +24,13 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl sm:text-4xl
+  @apply text-3xl sm:text-4xl dark:text-white
 }
 
 li {
-  @apply cursor-pointer
+  @apply cursor-pointer dark:text-white
 }
 
 button {
-  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white dark:shadow-indigo-500/50
 }

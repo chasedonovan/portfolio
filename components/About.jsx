@@ -12,10 +12,10 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-600 dark:text-gray-300">
             / / I&#39;m not your average developer
           </p>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-60 dark:text-gray-300">
             For the past 2 years I&#39;ve been learning and developing with
             React, Node.js, Firebase, and many other libraries and tools used in web
             development. At my current place of employment, Accudata, I am
@@ -24,7 +24,7 @@ const About = () => {
             problem solver and a solid team contributor. I&#39;m a reliable
             worker who is highly observant, motivated, and analytical
           </p>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-600 dark:text-gray-300">
             I started learning web development to solve efficiency issues for my
             employer, and to learn an employable skill. After getting deeper
             into the journey of a developer, I became even more enthused with
@@ -34,12 +34,12 @@ const About = () => {
             for the first time).
           </p>
           <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
+            <p className="py-2 text-gray-600 underline cursor-pointer dark:text-gray-300">
               Check out some of my latest projects.
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
           <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>
