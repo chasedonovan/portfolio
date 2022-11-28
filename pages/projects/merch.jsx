@@ -37,7 +37,7 @@ const merch = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I designed, built, and deployed this app for a NFT Project called
+              I designed, built, and deployed this fully responsive web app for a NFT Project called
               GoatTribe using NextJs, Tailwind, and Vercel. Using dcSpark
               Multi-Platform Library I constructed a wallet connector that, with
               a fetch to an API, us able to connect to the user's wallet and
