@@ -3,6 +3,9 @@ import wmpImg from "../public/assets/projects/wmp.png";
 import cryptoImg from "../public/assets/projects/crypto.png";
 import hdbImg from "../public/assets/projects/hdb.png";
 import mbuyuImg from "../public/assets/projects/mbuyu.png";
+import theriverImg from "../public/assets/projects/theriver.png";
+import merchImg from "../public/assets/projects/merch.png";
+
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -14,6 +17,17 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+        <ProjectItem
+            title="The River"
+            backgroundImg={theriverImg}
+            projectUrl="/projects/theriver"
+            tech="Next JS"
+          />          <ProjectItem
+          title="GoatTribe Merch Store"
+          backgroundImg={merchImg}
+          projectUrl="/projects/merch"
+          tech="Next JS"
+        />
           <ProjectItem
             title="Water my Plants"
             backgroundImg={wmpImg}
