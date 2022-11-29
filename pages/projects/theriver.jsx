@@ -48,7 +48,7 @@ const theriver = () => {
             The Vercel deployment has web vital and audience tracking to allow me to see how users are interacting with the app
             and the quality of those interactions.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8 disabled:opacity-25" disabled>
+          <button className="px-8  py-2 mt-4 mr-8 disabled:opacity-25" disabled>
             Code
           </button>
           <a
