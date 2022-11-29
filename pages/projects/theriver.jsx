@@ -34,14 +34,14 @@ const theriver = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            While working with the team's designer, I built, deployed, and maintain this landing page for The River,
+            While working with the team&apos;s designer, I built, deployed, and maintain this landing page for The River,
             an online casino built on the 
             cardano blockchain, using NextJS, Tailwind, and Vercel. It is fully responsive and features a
             a slot machine that, on click, lets users check their wallet 
             to see if they are on a whitelist. If they are, the slot machine will spin and land on 3 toads 
             then proceed to show a winning screen that allows users to claim a NFT. I integrated
             web3 wallet connector using Mesh to allow users to easily connect their wallet to the app and mint the 
-            digital asset. For user's who are not on the whitelist, using a random number generator and additional logic,
+            digital asset. For user&apos;s who are not on the whitelist, using a random number generator and additional logic,
             the slot machine returns 3 seemingly random slots that are never all the same, to give the user the impression
             that they are playing a slot machine. After the loser slot sequence, the user is shown a losing screen that
             shows a call to action with a link to social media. All wallet interactions have proper error handling.

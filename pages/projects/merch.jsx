@@ -39,9 +39,9 @@ const merch = () => {
             <p>
               I designed, built, and deployed this fully responsive web app for a NFT Project called
               GoatTribe using NextJs, Tailwind, and Vercel. Using dcSpark
-              Multi-Platform Library I constructed a wallet connector that, with
-              a fetch to an API, us able to connect to the user's wallet and
-              check if they have a 'GoatTribe' NFT. If they do, they are able to
+              Multi-Platform Library I constructed a wallet connector that allows the app to connect to the user&apos;s wallet and, with
+              a fetch to an API, 
+              check if they have a &apos;GoatTribe&apos; NFT. If they do, they are able to
               enter the store. If they do not, they get link to a NFT
               marketplace and a friendly message saying they need to buy a
               GoatTribe NFT. I handled all of the design and development for
@@ -51,7 +51,7 @@ const merch = () => {
               or no stock. I implemented a shipping info checkout form using
               MaterialUI components, and react-hook-form to handle validation. I
               also implemented a multi-crypto payment system using nowPayments
-              and sendGrid to send a receipt to the user's email. I currently
+              and sendGrid to send a receipt to the user&apos;s email. I currently
               maintain this deployment and work with the team to implement any
               requested features.
             </p>
