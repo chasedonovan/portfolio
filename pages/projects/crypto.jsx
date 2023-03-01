@@ -49,7 +49,7 @@ const crypto = () => {
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://crypto-tracker-lyart.vercel.app/"
+            href="https://crypto-asset-tracker.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
