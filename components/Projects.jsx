@@ -5,6 +5,9 @@ import hdbImg from "../public/assets/projects/hdb.png";
 import mbuyuImg from "../public/assets/projects/mbuyu.png";
 import theriverImg from "../public/assets/projects/theriver.png";
 import merchImg from "../public/assets/projects/merch.png";
+import dapp from "../public/assets/projects/dapp.png";
+import mint from "../public/assets/projects/mint.png";
+
 
 import ProjectItem from "./ProjectItem";
 
@@ -18,15 +21,27 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
         <ProjectItem
+            title="The Morphium Mint"
+            backgroundImg={mint}
+            projectUrl="/projects/mint"
+            tech="NextJS"
+          />
+        <ProjectItem
+            title="The River Dapp"
+            backgroundImg={dapp}
+            projectUrl="/projects/theriverdapp"
+            tech="NextJS"
+          />
+        <ProjectItem
             title="The River"
             backgroundImg={theriverImg}
             projectUrl="/projects/theriver"
-            tech="Next JS"
+            tech="NextJS"
           />          <ProjectItem
           title="GoatTribe Merch Store"
           backgroundImg={merchImg}
           projectUrl="/projects/merch"
-          tech="Next JS"
+          tech="NextJS"
         />
           <ProjectItem
             title="Water my Plants"
@@ -52,6 +67,7 @@ const Projects = () => {
             projectUrl="/projects/crypto"
             tech="React JS"
           />
+          
         </div>
       </div>
     </div>

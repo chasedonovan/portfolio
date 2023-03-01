@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import theriverImg from "../../public/assets/projects/theriver.png";
+import dapp from "../../public/assets/projects/dapp.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
@@ -20,7 +20,7 @@ const theriver = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={theriverImg}
+          src={dapp}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -34,25 +34,17 @@ const theriver = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            While working with the team&apos;s designer, I built, deployed, and maintain this landing page for The River,
-            an online casino built on the 
-            cardano blockchain, using NextJS, Tailwind, and Vercel. It is fully responsive and features a
-            a slot machine that, on click, lets users check their wallet 
-            to see if they are on a whitelist. If they are, the slot machine will spin and land on 3 toads 
-            then proceed to show a winning screen that allows users to claim a NFT. I integrated
-            web3 wallet connector using Mesh to allow users to easily connect their wallet to the app and mint the 
-            digital asset. For user&apos;s who are not on the whitelist, using a random number generator and additional logic,
-            the slot machine returns 3 seemingly random slots that are never all the same, to give the user the impression
-            that they are playing a slot machine. After the loser slot sequence, the user is shown a losing screen that
-            shows a call to action with a link to social media. All wallet interactions have proper error handling.
-            The Vercel deployment has web vital and audience tracking to allow me to see how users are interacting with the app
-            and the quality of those interactions.
+            This app was built using NextJS and frontend is hosted on Vercel.
+            This is the beginning to a web3 casino platform. Currently users can view available features and check their stats on the leaderboard.
+            Users can also sign in with web3 wallet and edit their profile, including selecting a profile picture from their wallet&apos;s NFT collection.
+            When signed in, users can see the toad NFTs in their wallet displayed the profile section.
+            Animations were used to create a more immersive experience.
           </p>
           <button className="px-8 py-2 mt-4 mr-8 disabled:opacity-25" disabled>
             Code
           </button>
           <a
-            href="https://cardanoriver.io/"
+            href="https://dapp.cardanoriver.io/"
             target="_blank"
             rel="noreferrer"
           >

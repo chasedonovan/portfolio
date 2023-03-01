@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import theriverImg from "../../public/assets/projects/theriver.png";
+import mintImg from "../../public/assets/projects/mint.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const theriver = () => {
+const mint = () => {
   return (
     <div>
     <Head>
-    <title>Chase | The River</title>
+    <title>Chase | The Morphium Minting</title>
     <meta name="description" content="I’m a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences." />
     <link rel="icon" href="../../public/assets/navLogo.png" />
     </Head>
@@ -20,12 +20,12 @@ const theriver = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={theriverImg}
+          src={mintImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">The River</h2>
-          <h3>NextJS / Tailwind / Mesh</h3>
+          <h2 className="py-2">The Morphium Minting</h2>
+          <h3>NextJS / Tailwind / MeshJS</h3>
         </div>
       </div>
 
@@ -34,25 +34,22 @@ const theriver = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            While working with the team&apos;s designer, I built, deployed, and maintain this landing page for The River,
-            an online casino built on the 
-            cardano blockchain, using NextJS, Tailwind, and Vercel. It is fully responsive and features a
-            a slot machine that, on click, lets users check their wallet 
-            to see if they are on a whitelist. If they are, the slot machine will spin and land on 3 toads 
-            then proceed to show a winning screen that allows users to claim a NFT. I integrated
-            web3 wallet connector using Mesh to allow users to easily connect their wallet to the app and mint the 
-            digital asset. For user&apos;s who are not on the whitelist, using a random number generator and additional logic,
-            the slot machine returns 3 seemingly random slots that are never all the same, to give the user the impression
-            that they are playing a slot machine. After the loser slot sequence, the user is shown a losing screen that
-            shows a call to action with a link to social media. All wallet interactions have proper error handling.
-            The Vercel deployment has web vital and audience tracking to allow me to see how users are interacting with the app
-            and the quality of those interactions.
+            This app was built using NextJS and frontend is hosted on Vercel.
+            Projects can setup mint drops and direct their users to a dynamic page via a unique link.
+            Users are able to mint NFTs with ADA or other Cardano native tokens with a single signature from their web3 wallet.
+            This app displays a countdown with links to save the date via google drive or ics if drop is not live yet.
+            The ability for whitelist mints is also fully functional.
+            Integrated recaptcha to prevent bots from minting.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8 disabled:opacity-25" disabled>
-            Code
-          </button>
+          {/* <a
+            href="https://github.com/water-my-plantz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a> */}
           <a
-            href="https://cardanoriver.io/"
+            href="https://dapp.themorphium.io/mint/cb_harvest_two"
             target="_blank"
             rel="noreferrer"
           >
@@ -73,10 +70,10 @@ const theriver = () => {
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Mesh
+                <RiRadioButtonFill className="pr-1" /> Vercel
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Vercel
+                <RiRadioButtonFill className="pr-1" /> MeshJS
               </p>
             </div>
           </div>
@@ -90,4 +87,4 @@ const theriver = () => {
   );
 };
 
-export default theriver;
+export default mint;
