@@ -105,6 +105,26 @@ const resume = () => {
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Uniscroll</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Chief Technology Officer
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+            Advised and was the main contributor to the creation of digital solutions to meet clients needs
+            </li>
+            <li>
+            Integrated multiple wallets from the cardano blockchain into the app
+            </li>
+            <li>
+            Created transactions on the cardano blockchain for users to sign and submit via web3 browser wallet
+            </li>
+          </ul>
+        </div>
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
@@ -157,7 +177,7 @@ const resume = () => {
           </ul>
         </div>
         {/* Experience */}
-        <div className="py-6">
+        {/* <div className="py-6">
           <p className="italic">
             <span className="font-bold">Regal, Colonnade 14</span>
             <span className="px-2">|</span>Las Vegas, NV
@@ -177,7 +197,7 @@ const resume = () => {
               practices, food/health standards, and customer service
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <h5 className="text-center underline text-[18px] py-4">Education</h5>
         {/* Experience */}
