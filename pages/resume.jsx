@@ -107,11 +107,12 @@ const resume = () => {
         </h5>
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Uniscroll</span>
+            <span className="font-bold italic">Uniscroll </span>
             <span className="px-2">|</span>Remote
           </p>
           <p className="py-1 italic">
-            Chief Technology Officer
+            Chief Technology Officer (2022 -
+            Current)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -133,7 +134,7 @@ const resume = () => {
           </p>
           <p className="py-1 italic">
             Office Associate / Web Development Consultant & Engineer (2019 -
-            Current)
+            2022)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
