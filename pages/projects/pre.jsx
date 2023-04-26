@@ -12,7 +12,7 @@ const pre = () => {
         <title>Chase | PRE.world </title>
         <meta
           name="description"
-          content="I’m a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I&apos;m a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
         <link rel="icon" href="../../public/assets/navLogo.png" />
       </Head>
@@ -44,7 +44,7 @@ const pre = () => {
               anyone regardless of their technical skills. Pre.world is a
               non-profit organization that supports Mbuyu, another non-profit
               organization dedicated to digitizing national records in Burundi
-              to preserve the country it's people's history. Overall, pre.world is a
+              to preserve the country it&apos;s people&apos;s history. Overall, pre.world is a
               powerful tool for empowering individuals and organizations to
               create immersive and engaging websites while contributing to a
               meaningful cause.
