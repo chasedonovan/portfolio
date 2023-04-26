@@ -4,9 +4,17 @@ import React from "react";
 
 const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] dark:shadow-indigo-500/50">
+    <div 
+    style={{
+      backgroundImage: `url(${backgroundImg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      
+    }}
+    className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] dark:shadow-indigo-500/50">
       <Image
-        className="rounded-xl group-hover:opacity-10"
+        className="rounded-xl group-hover:opacity-10 h-full w-full object-cover"
         src={backgroundImg}
         alt="/"
       />

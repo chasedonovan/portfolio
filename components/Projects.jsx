@@ -1,13 +1,12 @@
 import React from "react";
 import wmpImg from "../public/assets/projects/wmp.png";
-import cryptoImg from "../public/assets/projects/crypto.png";
+import preImg from "../public/assets/projects/pre.png";
 import hdbImg from "../public/assets/projects/hdb.png";
 import mbuyuImg from "../public/assets/projects/mbuyu.png";
 import theriverImg from "../public/assets/projects/theriver.png";
 import merchImg from "../public/assets/projects/merch.png";
 import dapp from "../public/assets/projects/dapp.png";
 import mint from "../public/assets/projects/mint.png";
-
 
 import ProjectItem from "./ProjectItem";
 
@@ -20,34 +19,35 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-        <ProjectItem
+          <ProjectItem
+            title="PRE.world"
+            backgroundImg={preImg}
+            projectUrl="/projects/pre"
+            tech="NextJS"
+          />
+          <ProjectItem
+            title="GoatTribe Merch Store"
+            backgroundImg={merchImg}
+            projectUrl="/projects/merch"
+            tech="NextJS"
+          />
+          <ProjectItem
             title="The Morphium Mint"
             backgroundImg={mint}
             projectUrl="/projects/mint"
             tech="NextJS"
           />
-        <ProjectItem
+          <ProjectItem
             title="The River Dapp"
             backgroundImg={dapp}
             projectUrl="/projects/theriverdapp"
             tech="NextJS"
           />
-        <ProjectItem
+          <ProjectItem
             title="The River"
             backgroundImg={theriverImg}
             projectUrl="/projects/theriver"
             tech="NextJS"
-          />          <ProjectItem
-          title="GoatTribe Merch Store"
-          backgroundImg={merchImg}
-          projectUrl="/projects/merch"
-          tech="NextJS"
-        />
-          <ProjectItem
-            title="Water my Plants"
-            backgroundImg={wmpImg}
-            projectUrl="/projects/wmp"
-            tech="React JS"
           />
           <ProjectItem
             title="MBUYU Digital Archive"
@@ -56,18 +56,18 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
+            title="Water my Plants"
+            backgroundImg={wmpImg}
+            projectUrl="/projects/wmp"
+            tech="React JS"
+          />
+
+          <ProjectItem
             title="Doc Preparation / Order Management App"
             backgroundImg={hdbImg}
             projectUrl="/projects/hdb"
             tech="React JS"
           />
-          <ProjectItem
-            title="Crypto Asset Tracker"
-            backgroundImg={cryptoImg}
-            projectUrl="/projects/crypto"
-            tech="React JS"
-          />
-          
         </div>
       </div>
     </div>
