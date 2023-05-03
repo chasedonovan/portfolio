@@ -107,12 +107,33 @@ const resume = () => {
         </h5>
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">PRE (Preserving Records Everywhere) </span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Fullstack Web Developer (2023 -
+            Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+            Collaborated with the development team to enhance the user experience by implementing a seamless frontend design
+            </li>
+            <li>
+            Added logic to allow edited space content to autosave to MongoDB, and other additional customization features
+            </li>
+            <li>
+            Facilitated the upload of various media types by configuring Cloudinary within the app
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">Uniscroll </span>
             <span className="px-2">|</span>Remote
           </p>
           <p className="py-1 italic">
             Chief Technology Officer (2022 -
-            Current)
+            2023)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
