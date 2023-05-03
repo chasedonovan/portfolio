@@ -177,7 +177,7 @@ const resume = () => {
           </ul>
         </div>
         {/* Experience */}
-        <div className="py-6">
+        {/* <div className="py-6">
           <p className="italic">
             <span className="font-bold">Aries Design</span>
             <span className="px-2">|</span>Las Vegas, NV
@@ -197,7 +197,7 @@ const resume = () => {
               tackling a new occupational task or obstacle
             </li>
           </ul>
-        </div>
+        </div> */}
         {/* Experience */}
         {/* <div className="py-6">
           <p className="italic">
