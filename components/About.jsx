@@ -24,13 +24,13 @@ const About = () => {
             and browser extensions.
           </p>
           <p className="py-2 text-gray-600 dark:text-gray-300">
-            Currently, I&#39;m working at Tokeo where I own end-to-end Android
-            development for a production multi-chain crypto wallet. I&#39;ve
-            built transaction builders for Cardano, Bitcoin, and Sui, developed
-            a multi-tab mobile DApp browser, and shipped releases across Google
-            Play Store, Apple App Store, and Chrome Web Store. I thrive on
-            solving complex problems and delivering scalable, user-facing
-            solutions.
+            Currently, I&#39;m working at Tokeo where I own features across
+            Android, iOS, and the Chrome extension for a production multi-chain
+            crypto wallet. I&#39;ve built transaction builders for Cardano,
+            Bitcoin, and Sui, developed a multi-tab mobile DApp browser, and
+            shipped releases across Google Play Store, Apple App Store, and
+            Chrome Web Store. I thrive on solving complex problems and
+            delivering scalable, user-facing solutions.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer dark:text-gray-300">
