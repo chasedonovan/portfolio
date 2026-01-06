@@ -60,13 +60,13 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 dark:shadow-indigo-500/50'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
+                  {/* <Link href='/resume'>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 dark:shadow-indigo-500/50'>
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
