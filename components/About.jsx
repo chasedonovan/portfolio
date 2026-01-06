@@ -15,23 +15,22 @@ const About = () => {
           <p className="py-2 text-gray-600 dark:text-gray-300">
             / / I&#39;m not your average developer
           </p>
-          <p className="py-2 text-gray-60 dark:text-gray-300">
-            For the past 2 years I&#39;ve been learning and developing with
-            React, Node.js, Firebase, and many other libraries and tools used in web
-            development. At my current place of employment, Accudata, I am
-            working on a digital solution to optimize the order processing and
-            management system. I have a solid reputation as an analytical
-            problem solver and a solid team contributor. I&#39;m a reliable
-            worker who is highly observant, motivated, and analytical
+          <p className="py-2 text-gray-600 dark:text-gray-300">
+            I&#39;m a full-stack software engineer with experience owning and
+            shipping production web and mobile products end-to-end. I have a
+            strong background in React, Next.js, Firebase, and Web3 systems,
+            with hands-on experience building transaction-critical features,
+            supporting live users, and managing releases across web, mobile,
+            and browser extensions.
           </p>
           <p className="py-2 text-gray-600 dark:text-gray-300">
-            I started learning web development to solve efficiency issues for my
-            employer, and to learn an employable skill. After getting deeper
-            into the journey of a developer, I became even more enthused with
-            finding problems to solve with code. I am now spending my time
-            building projects with ReactJS, Node.js, and Firebase, as well as
-            learning new technologies (like this app, which I built using NextJS
-            for the first time).
+            Currently, I&#39;m working at Tokeo where I own end-to-end Android
+            development for a production multi-chain crypto wallet. I&#39;ve
+            built transaction builders for Cardano, Bitcoin, and Sui, developed
+            a multi-tab mobile DApp browser, and shipped releases across Google
+            Play Store, Apple App Store, and Chrome Web Store. I thrive on
+            solving complex problems and delivering scalable, user-facing
+            solutions.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer dark:text-gray-300">

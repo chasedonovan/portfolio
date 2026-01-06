@@ -7,6 +7,8 @@ import theriverImg from "../public/assets/projects/theriver.png";
 import merchImg from "../public/assets/projects/merch.png";
 import dapp from "../public/assets/projects/dapp.png";
 import mint from "../public/assets/projects/mint.png";
+import tokeoImg from "../public/assets/projects/tokeo.png";
+import dropspotImg from "../public/assets/projects/dropspot.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -19,6 +21,18 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Tokeo Wallet"
+            backgroundImg={tokeoImg}
+            projectUrl="/projects/tokeo"
+            tech="Kotlin / Swift / TypeScript"
+          />
+          <ProjectItem
+            title="Dropspot NFT Marketplace"
+            backgroundImg={dropspotImg}
+            projectUrl="/projects/dropspot"
+            tech="NextJS"
+          />
           <ProjectItem
             title="PRE.world"
             backgroundImg={preImg}

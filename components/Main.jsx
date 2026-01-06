@@ -15,10 +15,10 @@ const Main = () => {
           <h1 className='py-4 text-gray-700 dark:text-gray-300'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Chase</span>
           </h1>
-          <h1 className='py-2 text-gray-700 dark:text-gray-300'>A Full-Stack Web Developer</h1>
+          <h1 className='py-2 text-gray-700 dark:text-gray-300'>A Full-Stack &amp; Mobile Developer</h1>
           <p className='py-4 text-gray-600 dark:text-gray-200 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive front-end web applications while
-            learning back-end technologies.
+            I build and ship production web and mobile applications end-to-end,
+            with experience in React, Next.js, Firebase, and Web3 systems.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
