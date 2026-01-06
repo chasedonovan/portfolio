@@ -52,7 +52,9 @@ const tokeo = () => {
               releases across Google Play Store, Apple App Store, and Chrome Web
               Store.
             </p>
-            {/* Add demo/code links when available */}
+            <a href="https://tokeo.io" target="_blank" rel="noreferrer">
+              <button className="px-8 py-2 mt-4">Demo</button>
+            </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 dark:shadow-indigo-500/50">
             <div className="p-2">
