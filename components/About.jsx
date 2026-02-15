@@ -2,11 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import AboutImg from "../public/assets/about.jpg";
+import useInView from "../hooks/useInView";
 
 const About = () => {
+  const [ref, isVisible] = useInView();
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-24 border-t border-gray-200/60 dark:border-slate-700/60">
+      <div ref={ref} className={`max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 animate-fade-in-up ${isVisible ? 'visible' : ''}`}>
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
@@ -38,7 +40,7 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 dark:shadow-indigo-500">
+        <div className="w-full h-auto m-auto shadow-soft dark:shadow-soft-dark rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 border border-gray-200/50 dark:border-slate-600/50">
           <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>

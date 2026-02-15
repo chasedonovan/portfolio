@@ -1,4 +1,5 @@
 import React from "react";
+import useInView from "../hooks/useInView";
 import wmpImg from "../public/assets/projects/wmp.png";
 import preImg from "../public/assets/projects/pre.png";
 import hdbImg from "../public/assets/projects/hdb.png";
@@ -13,26 +14,31 @@ import dropspotImg from "../public/assets/projects/dropspot.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
+  const [ref, isVisible] = useInView();
   return (
-    <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+    <div id="projects" className="w-full pt-24 border-t border-gray-200/60 dark:border-slate-700/60">
+      <div className="max-w-[1240px] mx-auto px-2 py-24">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Tokeo Wallet"
-            backgroundImg={tokeoImg}
-            projectUrl="/projects/tokeo"
-            tech="Kotlin / Swift / TypeScript"
-          />
-          <ProjectItem
-            title="Dropspot NFT Marketplace"
-            backgroundImg={dropspotImg}
-            projectUrl="/projects/dropspot"
-            tech="NextJS"
-          />
+        <div ref={ref} className={`grid md:grid-cols-2 gap-8 animate-stagger ${isVisible ? 'visible' : ''}`}>
+          <div className="md:col-span-2">
+            <ProjectItem
+              title="Tokeo Wallet"
+              backgroundImg={tokeoImg}
+              projectUrl="/projects/tokeo"
+              tech="Kotlin / Swift / TypeScript"
+            />
+          </div>
+          <div className="md:col-span-2">
+            <ProjectItem
+              title="Dropspot NFT Marketplace"
+              backgroundImg={dropspotImg}
+              projectUrl="/projects/dropspot"
+              tech="NextJS"
+            />
+          </div>
           <ProjectItem
             title="PRE.world"
             backgroundImg={preImg}

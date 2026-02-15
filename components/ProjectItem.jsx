@@ -12,7 +12,7 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
       backgroundRepeat: "no-repeat",
       
     }}
-    className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] dark:shadow-indigo-500/50">
+    className="relative flex items-center justify-center h-auto w-full min-h-[200px] rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] border border-gray-200/50 dark:border-slate-600/50 hover:border-primary/40 transition-all duration-300 shadow-sm hover:shadow-md">
       <Image
         className="rounded-xl group-hover:opacity-10 h-full w-full object-cover"
         src={backgroundImg}

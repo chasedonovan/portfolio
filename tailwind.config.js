@@ -6,7 +6,16 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#5651e5',
+        secondary: '#709dff',
+      },
+      boxShadow: {
+        soft: '0 2px 8px rgba(0,0,0,0.06)',
+        'soft-dark': '0 2px 8px rgba(0,0,0,0.2)',
+      },
+    },
   },
   plugins: [],
 }

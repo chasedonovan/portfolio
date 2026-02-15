@@ -34,8 +34,8 @@ const Navbar = () => {
       // style={{ backgroundColor: `${navBg}`}}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-[#ecf0f3]  dark:bg-slate-900 dark:shadow-indigo-500/50"
-          : "fixed w-full h-20 z-[100] bg-[#ecf0f3] dark:bg-slate-900 dark:shadow-indigo-500/50"
+          ? "fixed w-full h-20 shadow-soft dark:shadow-soft-dark z-[100] ease-in-out duration-300 bg-[#ecf0f3] dark:bg-slate-900 border-b border-gray-200/50 dark:border-slate-700/50"
+          : "fixed w-full h-20 z-[100] bg-[#ecf0f3] dark:bg-slate-900"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -111,7 +111,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:shadow-indigo-500/50"
+                className="rounded-full shadow-soft dark:shadow-soft-dark p-3 cursor-pointer border border-gray-200/50 dark:border-slate-600/50"
               >
                 <AiOutlineClose />
               </div>
@@ -165,7 +165,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-indigo-500/50">
+                  <div className="rounded-full shadow-soft dark:shadow-soft-dark p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-gray-200/50 dark:border-slate-600/50">
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -174,14 +174,14 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-indigo-500/50">
+                  <div className="rounded-full shadow-soft dark:shadow-soft-dark p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-gray-200/50 dark:border-slate-600/50">
                     <FaGithub />
                   </div>
                 </a>
                 <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-indigo-500/50"
+                    className="rounded-full shadow-soft dark:shadow-soft-dark p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-gray-200/50 dark:border-slate-600/50"
                   >
                     <AiOutlineMail />
                   </div>
@@ -189,7 +189,7 @@ const Navbar = () => {
                 {/* <Link href="/resume">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-indigo-500/50"
+                    className="rounded-full shadow-soft dark:shadow-soft-dark p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-gray-200/50 dark:border-slate-600/50"
                   >
                     <BsFillPersonLinesFill />
                   </div>
