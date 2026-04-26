@@ -52,7 +52,7 @@ const tokeo = () => {
               releases across Google Play Store, Apple App Store, and Chrome Web
               Store.
             </p>
-            <a href="https://tokeo.io" target="_blank" rel="noreferrer">
+            <a href="https://chromewebstore.google.com/detail/tokeo-wallet/gcfodaebdmongllonjmfmbmefocjmhol?pli=1" target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4">Demo</button>
             </a>
           </div>
